@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance2</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table_creation_using_HTML</h1>
+    <table>
+        <tr>
+            <th>ordertype</th>
+            <th>orderid</th>
+            <th>amount</th>
+            <th colspan="5">customer name</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Pickup</td>
+            <td>1</td>
+            <td>20</td>
+            <td>Anil</td>
+            <td>Bose</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>15</td>
+            <td>Ridita</td>
+            <td>Bose</td>
+        </tr>
+        <tr>
+            <td>Delivery</td>
+            <td>3</td>
+            <td>21</td>
+            <td rowspan="3">Anil</td>
+            <td rowspan="3">Bose</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Pickup</td>
+            <td rowspan="2">4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>4</td>
+        </tr>
+    </table>
+</body>
+</html>
